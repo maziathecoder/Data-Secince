@@ -27,3 +27,9 @@ def percentage_bar_chart():
     plt.show()
 
 percentage_bar_chart()
+
+
+def percentage_line_chart():
+    plt.line(students_names, students_marks)
+    plt.label("students' percentage Graph")
+    plt.xlabel
