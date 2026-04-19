@@ -31,7 +31,7 @@ plt.show()
 df.select_dtypes(include=[np.number]).hist(figsize=12.8)
 plt.show()
 
-df.select_dtypes(include=[np.number]).plot(kind=box, subplot=True, layout=(3,2), sharex=False, sharey=False, figsize=(8,12))
+df.select_dtypes(include=[np.number]).plot(kind='box', subplot=True, layout=(3,2), sharex=False, sharey=False, figsize=(8,12))
 plt.show()
 
 
